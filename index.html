@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="img.jpg" alt="" >
+        </div>
+        <div class="content">
+            <div class="logo">
+                <span>DDAC</span>
+            </div>
+            <div class="txt">
+                <h2 class="hovertxt">Welcome Back!</h2>
+                <p>Enter Your Details Below</p>
+            </div>
+            <form id="loginForm">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+    
+            </form>
+            <div class="rmbforg">
+                <form class="rmb hovertxt">
+                    <input type="checkbox" name="rmbme" id="rmbme">
+                    <label for="rmbme" >Remember me</label>
+                </form>
+                <div class="fgp">
+                    <a href="#" id="forgotPassword" class="hovertxt">Forgot Password?</a>
+                </div>
+            </div>
+            <form class="buttons">
+                <button type="submit" class="btlog">Login</button>
+                <button type="submit" class="btgoogle hovertxt">Log in with Google</button>
+            </form>
+            <div class="singup">
+                <p>Don`t have an account?</p>
+                <a href="#" id="singup" class="hovertxt">Sing Up</a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
